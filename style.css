@@ -1,0 +1,36 @@
+*{
+    box-sizing: ;
+    margin: 0;
+    padding: 0;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav-items{
+    height: 80px;
+    
+    background: rgb(77, 105, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw-1300px)/2);
+}
+.logo{
+    color: blue;
+    font-size: 1.5rem;font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 1.5rem;
+}
+.call{
+    background: yellowgreen;
+
+}
+.call-container{
+    display: grid;
+}
+.button{
+    font-weight: 400;
+    color: blueviolet;
+}
